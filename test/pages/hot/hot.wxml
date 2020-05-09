@@ -1,0 +1,4 @@
+<view class="desc">被index页面预加载的，可以实现秒开，因为预加载，到这个页面是没有数据请求的</view>
+<view wx:for="{{state}}" wx:key="index">
+  <view>{{item.name}} {{item.score}}分</view>
+</view>

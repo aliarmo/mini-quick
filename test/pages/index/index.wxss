@@ -1,0 +1,5 @@
+.desc{
+  margin-bottom: 20rpx;
+  color: red;
+
+}

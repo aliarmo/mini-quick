@@ -1,0 +1,3 @@
+<view class="desc">点击热榜tab，可以秒开，因为在这个页面预加载看热榜tab的数据</view>
+<view wx:for="{{state}}" wx:key="index">{{item.order}}  {{item.query}}</view>
+<button bindtap="$paging">下一页</button>

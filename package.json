@@ -1,0 +1,19 @@
+{
+  "name": "quick",
+  "version": "1.0.0",
+  "description": "",
+  "main": "quick.ts",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ts-loader": "^6.2.0",
+    "typescript": "^3.6.3",
+    "webpack-shell-plugin": "^0.5.0"
+  }
+}
